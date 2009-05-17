@@ -1,0 +1,497 @@
+
+			啽啠啠啠啠啠啠啠啠啠啠啠啠啠啠喌
+			啣僼傽僀儖 儁乕僕儍乕 俵俷俽俿啣
+			啣     by Ken/ichiro(OPA)     啣
+			喒啠啠啠啠啠啠啠啠啠啠啠啠啠啠喗
+丒奣梫
+	丂MOST偼丄傌亅僕儍乕偱偡丅偩偐傜偁側偨偑丄偙偺僼傽僀儖傪懠偺傌乕僕儍乕
+	傗僄僨傿僞側偳偱尒偰偄傞偺偱偟偨傜丄偣偭偐偔偱偡偐傜MOST偱撉傫偱傒偰
+	偔偩偝偄丅prompt>MOST MOST 偱尒傜傟傑偡丅廔椆偼[RET]丄僗僋儘乕儖偼
+	僇乕僜儖僉乕忋壓偱丄傑偨丄僗儁乕僗僉乕偱師偺儁乕僕偑尒傜傟傑偡丅
+	儅僂僗僪儔僀僶偑搊榐偝傟偰偄傟偽儅僂僗偱僗僋儘乕儖傪峴偆帠偑弌棃傑偡丅
+	偲傝偁偊偢偦傟偩偗抦偭偰偄傟偽僼傽僀儖傪撉傓偙偲偼弌棃傞偱偟傚偆丅
+
+丒巊梡娐嫬
+	NEC偺PC-9801僔儕乕僘偍傛傃偦偺屳姺婡丅CPU偼V30埲忋丅僴僀儗僝偼晄壜丅
+	儅僂僗傪巊偆応崌偼NEC惢傑偨偼MS惢偺僪儔僀僶傪慻傒崬傓昁梫偑偁傝傑偡丅
+	娐嫬曄悢 COMSPEC= 偍傛傃 MOST=乮屻弎乯傪愝掕偟偰偍偔偲曋棙偱偡丅
+	儊僀儞儊儌儕傪嵟掅80KB丄嵟戝偱栺140KB徚旓偟傑偡丅
+
+丒婲摦曽朄偵偮偄偰
+	1)丂僼傽僀儖柤傪巜掕偟偰婲摦偡傞丅
+	彂幃丗
+		A>MOST [filename...]
+	儚僀儖僪僇乕僪丄暋悢巜掕偵懳墳偟偰偄傑偡丅
+	2)丂昗弨擖椡傪撉傓丅
+	彂幃丗
+		(1)丂A>MOST <[filename]
+		(2)丂A>ゥゥゥ |MOST
+	昗弨擖椡偼僼傽僀儖偱懚嵼偟側偗傟偽側傝傑偣傫丅MOST <CON偲偄偭偨偙偲偼
+	偱偒傑偣傫丅
+	3)丂A>MOST /? 偲偡傞偲娙扨側愢柧偑昞帵偝傟傑偡丅
+	儅僂僗僪儔僀僶偑搊榐偝傟偰偄傟偽丄乽儅僂僗傕巊梡壜擻偱偡丅乿
+	偲昞帵偝傟傑偡丅
+	4)丂A>MOST /H 偲偡傞偲丄僉乕憖嶌堦棗偑昞帵偝傟傑偡丅
+
+丒娐嫬曄悢MOST偵偮偄偰
+	娐嫬曄悢MOST偱丄師偺傕偺傪愝掕偱偒傑偡丅
+	丂丒奼挘巕傪徣棯偟偨偲偒偺僨僼僅儖僩偺奼挘巕
+	丂丒僞僽娫妘係偱昞帵偡傞奼挘巕
+	丂丒僗僋儘乕儖懍搙
+	丂丒専嶕寢壥傪昞帵偡傞嵺丄忋乛壓偵偁偗傞峴悢
+	丂丒婲摦偡傞僄僨傿僞
+	丂丒僋儕僢僾婡擻偵巊梡偡傞僼傽僀儖柤
+	偦傟偧傟偺僼傿乕儖僪偼僉乕儚乕僪偐傜巒傑傝丄僙儈僐儘儞偱廔傢傝傑偡丅
+
+	丂僨僼僅儖僩偺奼挘巕傪愝掕偡傞僉乕儚乕僪偼丄EXT:偱偡丅奼挘巕偼丄僺儕
+	僆僪偱巒傑傝丄侾侽屄傑偱愝掕偑壜擻偱偡丅
+
+	丂僞僽暆係偺僼傽僀儖偺奼挘巕傪愝掕偡傞僉乕儚乕僪偼丄TAB4:偱偡丅僨僼僅
+	儖僩奼挘巕偺愝掕偲摨偠偔丄僺儕僆僪偱巒傑傝傑偡丅偙傟傕侾侽屄傑偱愝掕偑
+	壜擻偱偡丅
+
+	丂僗僋儘乕儖懍搙傪愝掕偡傞僉乕儚乕僪偼丄SPD:偱偡丅偙偺偁偲偵丄係偮偺忬
+	懺偡側傢偪丄[仾伀],\[仾伀],^[仾伀],^\[仾伀]偺偦傟偧傟偺懍搙傪偙偺弴斣偱
+	係寘偺悢帤偱愝掕偟傑偡丅懍搙偼侾偑嵟掅(侾僪僢僩)偱俆偑嵟崅(堦峴)偱偡丅
+
+	丂奺庬僼儔僌偺愝掕傪偡傞僉乕儚乕僪偼丄FLAG:偱偡丅偦偺懠傕傠傕傠偺奺庬
+	愝掕傪偟傑偡丅偙傟傜偺巜掕偼係暥帤偺暥帤楍偱昞偝傟傑偡丅搑拞偵僗儁乕僗
+	傪擖傟側偄偱偔偩偝偄丅
+	丂侾暥帤栚偑丄専嶕偺帪梋寁偵昞帵偡傞峴悢偱偡丅斖埻偼侾乣俋丅僨僼僅儖僩
+	偼侾丅椺偊偽俆傪巜掕偡傞偲丄専嶕偺寢壥偼嵟掅忋乮壓乯偐傜俆峴栚偵偔傞傛
+	偆偵側傝傑偡丅
+	丂俀暥帤栚偑丄俵俷俽俿婲摦帪偺夋柺儌乕僪偱偡丅斖埻偼侽乣俀丄僨僼僅儖僩
+	偼侽丅偙傟傜偺堄枴偼師偺傛偆偵側偭偰偄傑偡丅
+		侽丗夋柺儌乕僪偼曄偊偢丄俵俷俽俿幚峴帪偺峴悢偱摦嶌偡傞丅
+		侾丗俀俆峴儌乕僪偱婲摦偡傞丅
+		俀丗俀侽峴儌乕僪偱婲摦偡傞丅
+	丂俀侽乛俀俆峴偼丄摦嶌拞偵^G偱愗傝懼偊傞偙偲傕偱偒傑偡丅俁侽峴儌乕僪偱
+	偼偙偺愝掕偼柍帇偝傟傑偡丅
+	丂俁暥帤栚偱偼丄\[RET]偵傛傞僄僨傿僞偺婲摦偺屻丄俢俷俽偵偡偖栠傞偐傪愝
+	掕偟傑偡丅'Y'枖偼'N'傪巜掕偟傑偡丅僨僼僅儖僩偼'N'偱偡丅
+	丂係暥帤栚偱偼丄[ROLLUP][ROLLDOWN]偱偺堏摦検傪巜掕偟傑偡丅'H'偱敿夋柺丄
+	'F'偱侾夋柺偱偡丅僨僼僅儖僩偼'H'偱偡丅
+
+	丂僄僨傿僞傪愝掕偡傞僉乕儚乕僪偼丄EDIT:偱偡丅徻偟偔偼屻弎丅
+
+	丂僋儕僢僾婡擻偺僼傽僀儖柤傪愝掕偡傞僉乕儚乕僪偼丄CLIP:偱偡丅偙傟傕徻
+	偟偔偼屻弎丅EDIT:偲CLIP:偼丄惓偟偔愝掕偟側偄偲偦傟偧傟偺婡擻傪巊偆偙偲
+	偑偱偒傑偣傫丅乮偮傑傝丄僨僼僅儖僩抣偲偄偆傕偺偑側偄乯
+
+  DIT:
+	丂\[RET]偵傛傞僄僨傿僞偺婲摦偱丄壗傪偳偆婲摦偡傞偐傪愝掕偟傑偡丅
+	丂&F 偑僼傽僀儖柤丄&P+-n 偑昞帵峴斣崋丄&L+-n 偑榑棟峴斣崋丄&T 偑僞僽娫
+	妘偵偦傟偧傟抲偒姺偊傜傟傑偡丅& 偦偺傕偺偼椺偵傛偭偰 && 偱昞偟傑偡丅峴
+	斣崋偱偼丄P傑偨偼L偺偁偲偵+枖偼皞苼A堦寘偺悢帤枖偼傾儖僼傽儀僢僩傪偮偗
+	傑偡丅椺偊偽+2偲偡傞偲丄峴斣崋偵俀傪懌偟偨抣偵側傝傑偡丅-A偲偡傞偲丄峴
+	斣崋偐傜侾侽傪堷偄偨抣傪堄枴偟傑偡丅榑棟峴斣崋傪巊偆偲丄埵抲偼傛傝惓妋
+	偱偡偑張棟偵帪娫偑偐偐傝傑偡丅堦曽昞帵峴斣崋偱偼丄偨傑偵岆嵎偑弌傑偡
+	偑丄偡偖偵僄僨傿僞偺婲摦偵擖傝傑偡丅傑偨丄&L偩偗丄枖偼&P偩偗偱偼摦嶌
+	偟傑偣傫丅&L+0(枖偼&P+0)偲偡傞昁梫偑偁傝傑偡丅
+	丂偙偺偁偲偵椺傪偄偔偮偐帵偟傑偡偺偱丄偦傟傪尒傟偽棟夝偺彆偗偵側傞偲巚
+	偄傑偡丅戝懱偺僄僨傿僞偵偼懳墳偱偒傞偲巚偄傑偡偑丄屄恖揑偵偍偡偡傔偡傞
+	偺偼倁Z偺忢挀儌乕僪偱偡丅夋柺傪僋儕傾偟偨傝丄梋寁側儊僢僙乕僕傪昞帵偟
+	偨傝偟側偄偺偱丄偡偭偲僄僨傿僞偵擖傞偙偲偑偱偒傑偡丅
+
+  LIP:
+	丂俵俷俽俿偺僋儕僢僾婡擻偼俵俬俤俴偺偦傟偵崜帡偟偰偄傑偡丅
+	丂僉乕儚乕僪偺屻偵僋儕僢僾僼傽僀儖柤傪彂偒傑偡丅奼挘巕偑 .* 偱側偄偲偒
+	偼丄傾儁儞僪儌乕僪偵側傝丄婛懚偺僼傽僀儖偺嵟屻偵捛壛偝傟傑偡丅僼傽僀儖
+	偑懚嵼偟側偄偲偒偼怴偨偵嶌惉偝傟傑偡丅
+	丂奼挘巕偑 .* 偺偲偒偼怳傝暘偗儌乕僪偵側傝傑偡丅偙偺応崌丄奼挘巕偼.000
+	偐傜弴偵巊傢傟偰偄側偄傕偺偵側傝傑偡丅嵟崅偼.255偱偡丅
+
+丒娐嫬曄悢俵俷俽俿偺愝掕椺
+
+	弶婜忬懺偱偼師偺傛偆偵愝掕偟偨偺偲摨偠偵側偭偰偄傑偡丅
+丂MOST=EXT:.DOC.TXT; TAB4:.C.H; SPD:3524; FLAG:10NH;
+
+	僾儘僌儔儅乕偼偙偺傛偆側姶偠偵側傞偺偱偟傚偆偐丅
+丂MOST=EXT:.C.CPP.H.PAS.MAK.DOC ; TAB4:.C.H.CPP.PAS ; SPD:4534 ; FLAG:50YF ;
+
+	偣偭偐偪側恖偼偙偆愝掕偡傞偲傛偄偱偟傚偆丅栚偑夞傞丅
+丂MOST=SPD:5555;
+
+	僼傽僀儖娗棟僣乕儖側偳偐傜婲摦偡傞嵺偼丄僺儕僆僪侾屄偩偗偵偟偰偍偔偲
+	尩枾偐偮惓妋側摦嶌偵側傝傑偡丅
+丂MOST=EXT:.;
+
+	倁Z偺儐乕僓乕偱丄忢挀偝偣偰側偄恖偼偙偆偡傞偲傛偄偱偟傚偆丅
+丂MOST=EDIT:A:\BIN\VZ -TA&T -TB&T &F -&L+C;
+
+	忢挀偝偣偰偄傞偲偒偼僆僾僔儑儞偑岠偐側偄偺偱丄傗傓傪偊偢偙偆側傝傑偡丅
+丂MOST=EDIT:A:\BIN\VZ &F -&L+C;
+
+	俵俬俥俤俽偺儐乕僓乕偼丄偙傫側傆偆偵側傝傑偡丅
+丂MOST=EDIT:A:\EXE\MIFES -H&T &F+&L+C;
+
+	僋儕僢僾婡擻傪傾儁儞僪儌乕僪偱巊梡偡傞応崌偺椺偱偡丅
+丂MOST=CLIP:MOST.CLP;
+
+	怳傝暘偗儌乕僪偱偼奼挘巕傪 .* 偵偟傑偡丅
+丂MOST=CLIP:MOSTCLIP.*;
+
+	嶌幰偼師偺傛偆偵愝掕偟偰巊偭偰偄傑偡丅PED偲側偭偰傑偡偑幚偼倁Z偱偡丅
+	僋儕僢僾婡擻偼傾儁儞僪儌乕僪偱巊偭偰偄傑偡丅
+丂MOST=EXT:..CPP.C.H.DOC.TXT.MAN.LOG;TAB4:.CPP.C.H.CPP.MAC;SPD:4534;
+丂     EDIT:PED &F -&L+F;FLAG:50NH;CLIP:H:\MOSTCLIP;
+
+	俁侽峴懳墳偺僄僨傿僞偱偼丄&L+C傪&L+F偖傜偄偵偡傞偲傛偄偱偟傚偆丅
+
+丒僼傽僀儖柤偺巜掕偵偮偄偰
+	丂僼傽僀儖柤偼晛捠偼摿偵堄幆偡傞昁梫偼偁傝傑偣傫丅捠忢偺婯懃偵懃偭偰巜
+	掕偟偰壓偝偄丅
+	丂僼傽僀儖柤乮奼挘巕傪娷傑側偄乯傪徣棯偡傞偲丄*偑曗傢傟傑偡丅
+	乮椺丗 .DOC => *.DOC丂A:\USR\.ASM =>A:\USR\*.ASM 乯
+	丂奼挘巕傪徣棯偡傞偲丄娐嫬曄悢MOST偱愝掕偟偨奼挘巕偑曗傢傟傑偡丅
+	娐嫬曄悢偑掕媊偝傟偰偄側偄応崌丄.DOC 偲 .TXT 偑曗傢傟傑偡丅
+	乮椺丗
+	丂丂丂娐嫬曄悢偑掕媊偝傟偰偄側偄応崌
+		README => README.DOC 偲 README.TXT 仸README.偼娷傑側偄
+		README. => README.	仸僺儕僆僪偑偁傞偺偱偦偺傑傑
+		""乮柍巜掕乯 => *.DOC 偲 *.TXT
+	丂丂丂娐嫬曄悢偱 [MOST=EXT:. .C .H .MAK;] 偲掕媊偟偨応崌
+		FOO => FOO. FOO.C FOO.H FOO.MAK
+	丂丂丂摨偠偔 [MOST=EXT:.*;] 偲偟偨応崌
+		FOO => FOO.*
+	乯
+	丂昗弨擖椡偑儕僟僀儗僋僩偝傟偰偄傞応崌丄偦傟偑桪愭偝傟傑偡丅
+	丂揥奐偝傟偨寢壥偳傟偵傕摉偰偼傑傞僼傽僀儖偑側偄応崌丄儊僢僙乕僕傪昞帵
+	偟偰廔椆偟傑偡丅
+
+丒夋柺偵偮偄偰
+	夵峴僐乕僪丄僞僽僐乕僪偼昞帵偝傟傑偣傫丅
+	専嶕傪偟偰尒偮偐偭偨応崌偼偦偺晹暘偑墿怓偵斀揮偟傑偡丅僞僽娫妘偼昗弨
+	偱8丄奼挘巕偑.C偐.H偺偲偒偼4偱偡丅僞僽娫妘傪4偵偡傞僼傽僀儖偺奼挘巕傪
+	娐嫬曄悢MOST偵僙僢僩偟偰偍偔偲丄偦偺僼傽僀儖傪僞僽娫妘係偱昞帵偝偣傞
+	帠偑偱偒傑偡丅
+	椺偊偽丄娐嫬曄悢偱 [MOST=TAB4:.C .H .BAS .PAS;]偲偡傞偲丄奼挘巕偑
+	C丄H丄BAS丄PAS偺傕偺偼僞僽娫妘偑4偵側傝傑偡丅[MOST=TAB4:.*;] 偲偡傞偲丄
+	慡偰偺僼傽僀儖偑僞僽娫妘4偱昞帵偝傟傑偡丅僷僀僾傪巊梡偟偨偲偒偺僞僽
+	娫妘偼8偱偡丅傑偨丄僼傽僀儖昞帵拞偵[TAB]僉乕偱丄僞僽娫妘傪愗傝懼偊傞
+	偙偲偑偱偒傑偡丅
+	夋柺壓偵偁傞悈怓偺僶乕偵丄嵍偐傜僼傽僀儖柤丄尰嵼峴乮昞帵峴乯丄尰嵼偺
+	僶僀僩丄僼傽僀儖偺偳偺埵抲偵偄傞偐偑亾偲奊乮偺傛偆側傕偺乯偱昞帵偝傟
+	傑偡丅専嶕暥帤楍偺擖椡偵偼壓偐傜2峴栚傪巊梡偟傑偡丅
+
+丒僉乕憖嶌
+	^ 偼[CTRL]僉乕傪丄\ 偼[SHIFT]僉乕傪昞偟傑偡丅
+
+	^X,伀		師偺峴偵堏摦偟傑偡丅
+	^E,仾		慜偺峴偵堏摦偟傑偡丅
+	\仾,\伀		僔僼僩僉乕傪墴偟偰偄傞娫丄忋壓偵崅懍僗僋儘乕儖偟傑偡丅
+	^仾,^W,^伀,^Z	楢懕僗僋儘乕儖乮壗偐僉乕傪墴偡傑偱僗僋儘乕儖乯偟傑偡丅
+			搑拞偱僔僼僩僉乕傪墴偡偲僗僋儘乕儖懍搙偑曄傢傝傑偡丅
+	^C,[ROLLUP]	師偺夋柺傪昞帵偟傑偡丅
+	^R,[ROLLDOWN]	慜偺夋柺傪昞帵偟傑偡丅
+	[SPACE]		師偺侾暸偵堏摦偟傑偡丅
+	^QR		僼傽僀儖愭摢傪昞帵偟傑偡丅
+	^QC		僼傽僀儖枛抂傪昞帵偟傑偡丅
+
+	^J[0-9]		尰嵼埵抲傪儅乕僋偟傑偡丅
+	[F3][0-9]	儅乕僋偟偨埵抲偵僕儍儞僾偟傑偡丅
+			儅乕僋侽偼僔僗僥儉儅乕僋偱偡丅
+			儅乕僋丒僕儍儞僾偺嵺偵尰傟傞僀儞僕働乕僞偼尰嵼偺
+			儅乕僋偺忬嫷傪昞偟傑偡丅
+
+	^^		慜曽専嶕傪偟傑偡丅
+	^\		屻曽専嶕傪偟傑偡丅
+			専嶕偲尵偭偰傕偍傑偗掱搙偺娙扨側傕偺偱偡丅
+			戝暥帤乛彫暥帤偺嬫暿傪偟傑偣傫丅
+	[F5],\[F5]	慜夞偺暥帤傪慜曽丄屻曽専嶕偟傑偡丅
+
+	[TAB]		僞僽娫妘傪愗傝懼偊傑偡乮係<->俉乯丅
+	[CLR]		師偺僼傽僀儖偵堏摦偟傑偡丅
+	\[CLR]		慜偺僼傽僀儖偵堏摦偟傑偡丅
+	[F2]		堦棗宍幃偱僼傽僀儖傪慖戰偟傑偡丅
+
+	[F6],P		尰嵼昞帵偝傟偰偄傞夋柺傪僼傽僀儖偵僋儕僢僾偟傑偡丅
+
+	(\^)[INS]	僗僋儘乕儖懍搙傪忋偘傑偡丅
+	(\^)[DEL]	僗僋儘乕儖懍搙傪壓偘傑偡丅
+
+	[HELP]		僉乕憖嶌堦棗傪昞帵偟傑偡丅
+	^G		乮俀俆乛俀侽峴夋柺偺偲偒乯昞帵峴悢傪愗傝姺偊傑偡丅
+	\[RET]		巕僾儘僙僗偱僄僨傿僞傪婲摦偟傑偡丅
+	^[RET],^QO	丂丂 乂 丂丂僔僃儖傪婲摦偟傑偡丅
+	[ESC],[RET]	廔椆偟傑偡丅
+
+丂丂埲壓偼儅僂僗僪儔僀僶傪慻傒崬傫偱偄傞偲偒偺傒巊梡偱偒傑偡丅
+丂丂戝検偺僼傽僀儖傪傏乣偲挱傔傞偲偒曋棙偱偡丅
+
+	儅僂僗壓	師偺峴傪昞帵偟傑偡丅
+	儅僂僗忋	慜偺峴傪昞帵偟傑偡丅
+	儅僂僗嵍儃僞儞	師偺僼傽僀儖偵堏摦偟傑偡丅
+	儅僂僗塃儃僞儞	慜偺僼傽僀儖偵堏摦偟傑偡丅
+
+丒俁侽峴偵偮偄偰
+	俁侽峴儌乕僪偺帪偼丄MOST懁偐傜夋柺偺峴悢傪曄偊傞帠偼偱偒傑偣傫丅
+	傑偨丄専嶕暥帤楍偺擖椡偑曄偵側傝傑偡偑丄巇條偱偡丅幚奞偼偁傝傑偣傫丅
+
+丒媄弍揑晅婰
+	仮妱傝崬傒23H斣(CTRL-C)偵僼僢僋傪偐偗偰偄傑偡乮幚偼偨偩嶦偡偩偗乯丅
+	丂0AH斣乮VSYNC妱傝崬傒乯偲18H斣(CRT-BIOS)傕巊梡偟偰偄傑偡丅
+	丂傑偨丄BREAK=OFF偵偟偰偄傑偡丅偨偩偟巕僾儘僙僗幚峴拞偼尦偵栠偟偰
+	丂偄傑偡丅
+
+	仮僉乕擖椡偵偼丄BIOS偺儚乕僋僄儕傾傪捈愙嶲徠偟偰偄傑偡丅扐偟丄専嶕
+	丂暥帤楍偺擖椡帪偩偗偼丄AH=0AH偺僼傽儞僋僔儑儞僐乕儖傪巊梡偟偰偄
+	丂傑偡丅傛偭偰丄僥儞僾儗乕僩乮僸僗僩儕僔僃儖乯婡擻偑巊梡壜擻偱偡丅
+
+	仮夋柺嵟壓峴偺僗僥傿僞僗昞帵偺晹暘偼夋柺傪暘妱偟偰昞帵偟偰偄傑偡丅偙偙
+	丂偱俥俹偺ON/OFF傪偡傞偲僗僥傿僞僗峴偑徚偊偰偟傑偄傑偡丅奞偼偁傝傑偣傫
+	丂偑婥偵側傞応崌偼丄僿儖僾偐丄僕儍儞僾宯偺僐儅儞僪傪擖椡偟偰壓偝偄丅
+
+	仮僌儔僼傿僢僋夋柺偼丄巊梡偟偰偄傑偣傫丅僥僉僗僩夋柺偼巊偭偨暘偼廔椆帪
+	丂偵暅尦偟傑偡丅
+
+	仮儅僀僋儘僜僼僩惢儅僂僗僪儔僀僶偺僥僗僩偵偼MSZ.COM傪丄巊偄曽偼晅懏偺
+	丂僪僉儏儊儞僩傪嶲峫偵偟傑偟偨丅挊嶌幰偺Hayami巵偵姶幱偟傑偡丅
+
+丒巊梡忋偺拲堄
+	仜撉傒崬傔傞嵟戝僼傽僀儖偼丄昞帵峴偱侾僼傽僀儖30000峴傑偱偱偡丅
+	丂僼傽僀儖悢偼96傑偱偱偡丅娐嫬曄悢MOST偱掕媊偱偒傞奼挘巕偺悢偼
+	丂偦傟偧傟10屄傑偱偱偡丅
+	丂傑偨丄僼傽僀儖柤乮僷僗傕娷傓乯偼63暥帤埲撪偵廂傑傞傛偆偵偟偰壓
+	丂偝偄丅偦偺懠偺暥帤楍傕忢幆揑側挿偝偵偍偝傔偰偔偩偝偄丅
+	丂偪傖傫偲僠僃僢僋偟偰側偄偺偱斖埻傪挻偊傞偲朶憱偺婋尟偑偁傝傑偡丅
+
+	仜僇儗儞僩僨傿儗僋僩儕偵COMMAND.COM偑側偄偲偒偼丄娐嫬曄悢COMSPEC=傪惓偟
+	丂偔愝掕偟側偄偲丄巕僾儘僙僗偑婲摦偱偒傑偣傫丅僷僗愗偭偰傕偩傔偱偡丅
+
+	仜俀侽峴儌乕僪偱偼丄夋柺塃壓偺僀儞僕働乕僞偺昞帵偑偍偐偟偔傒偊傑偡偑丄
+	丂巇條偱偡丅
+
+	仜倁俽倄俶俠妱傝崬傒傪巊偆僾儘僌儔儉偱丄妱傝崬傒偺張棟偑侾乛俇侽昩傪
+	丂挻偊傞傕偺偲摨帪偵巊偆偲丄朶憱偺婋尟偑偁傝傑偡丅
+
+	仜僉儍儔僋僞僨僶僀僗傪撉傓偙偲偼弌棃傑偣傫丅
+
+	仜僼傽僀儖拞偺俠俼丄俴俥丄俠俼亄俴俥偼慡偰丄暅婣亄夵峴偲偟偰埖偄傑偡丅
+
+	仜専嶕傪夁怣偟側偄偱偔偩偝偄丅偨偲偊偽丄昞帵峴傪傑偨偑偭偨専嶕偼偱偒傑
+	丂偣傫丅
+
+丒挊嶌尃庡挘
+	挊嶌尃偼嶌幰偑曐棷偟傑偡丅旕塩棙偺巊梡丄暋幨丄媦傃攝晍偼帺桼丄柍彏
+	偱偡丅偦偺嵺傾乕僇僀僽傪曄峏偟偰嵞攝晍偟偰偼偄偗傑偣傫丅
+
+	偙偺僾儘僌儔儉傪斕攧偡傞応崌丄偁傞偄偼彂愋乛嶨帍摍偵摨崼偡傞応崌丄
+	帠慜偵嶌幰偺彸戻傪昁梫偲偟傑偡丅偦偺嵺偄偔傜偐儘僀儎儕僥傿傪偄偨偩偒
+	傑偡丅
+
+	嶌幰偼偙偺僾儘僌儔儉偺偄偐側傞僶僌偵傕廋惓偺媊柋傪晧偄傑偣傫丅傑偨丄
+	偙偺僾儘僌儔儉偵傛偭偰婲偒偨偄偐側傞晄嬶崌偵傕愑擟傪晧偄傑偣傫丅
+	揮嵹偡傞帪偼帠慜偵嶌幰偺嫋壜傪偲偭偰偔偩偝偄丅摿偵棟桼偑側偄尷傝丄偡偖
+	俷俲弌偟傑偡偺偱丅
+
+	MOST偼傎偲傫偳廔椆偟偨僾儘僕僃僋僩偱偡偑丄偄偪偍偆僒億乕僩偼
+	NIFTY-Serve FGALBT MES 5 偱峴偄傑偡丅
+
+丒幱帿
+	仛僷働僢僩捠怣偱偺攝晍偵嫤椡偟偰偔傟偨 JG7PMY丆JK7AJY丆JI7PSV偵
+	丂姶幱偟傑偡丅
+
+	仛 NIFTY-SERVE 偵傾僢僾偟偰偔傟偰丄夵椙偺傾僪僶僀僗傪偔偩偝偭偨
+	丂JF2XOY 栘栰懞朏岶偝傫傪偼偠傔丄娭學彅巵偵姶幱偟傑偡丅
+	丂側偍 Version 1.13 偐傜丄嶌幰杮恖偑僒億乕僩傪峴偄傑偡丅
+	丂栘栰懞朏岶偝傫偵怺偔姶幱偟傑偡丅
+
+丒曄峏棜楌
+	仱嵟弶偼俻倳倝們倠俛俙俽俬俠偱儁乕僕儍傪嶌傝偐偗偨丅
+	丂僶僌偩傜偗偱丄僒僀僘偑偱偐偔偰丄慡慠巊偊側偐偭偨丅
+
+	仱朸寧朸擔丄俠斉姰惉丅儅僂僗娭學傪彍偄偰MS-DOS斈梡偩偭偨丅
+	丂僆僽僕僃僋僩僒僀僘偑尰嵼偺俁攞埲忋偁偭偨丅
+
+	仱朸寧朸擔丄傾僙儞僽儔斉偑堦墳姰惉丅僗儉乕僗僗僋儘乕儖傪僒億乕僩丅
+	丂崱搙偼僜乕僗偺僒僀僘偑俁攞偵側偭偨丅
+
+	仱専嶕帪偺僶僌廋惓偲丄巇條偺曄峏丅(91񴅳5)
+
+	仱儊儌儕偺愡栺偲丄嵶偐偄晹暘偺尒捈偟丅彮偟懍偔側偭偨丅(91񴅳6)
+
+	仱僗僋儘乕儖儖乕僠儞偺尒捈偟丅専嶕偺巇條曄峏丅敿夋柺儘乕儖傾僢僾丒僟僂
+	丂儞傪僕儍儞僾摦嶌偵丅僉乕僶僢僼傽僋儕傾傪崅懍壔丅VSYNC僞僀儈儞僌偺
+	丂庢傝曽傪偪傚偭偲曄峏丅(91-5-22)
+
+	仱VSYNC偺張棟傪妱傝崬傒傪巊梡偟側偄曽朄偵曄峏丅(91-5-25)
+
+	仱偟偮偙偄僶僌傪戅帯丅(91-5-27)
+	丂戞堦師巇條搥寢丅
+
+	仱側傫偰尵偭偨愩偺崻傕姡偐側偄偆偪偵丄夋柺塃壓偺僀儞僕働乕僞傪捛壛丅
+	丂柤慜傪MOST偵夵柤丅Version 1.02 偲偡傞丅(91-6-17)
+
+	仱塀偟僼傽僀儖丄僔僗僥儉僼傽僀儖傕尒傟傞傛偆曄峏丅廬棃偼挿偝侽偺僼傽僀
+	丂儖傪尒傛偆偲偡傞偲乽挿偝偑侽偱偡:[filename]乿偲昞帵偝傟偰廔椆偟偰偟傑
+	丂偭偨偺傪曄峏丅APPEND儅儞僪偵懳墳丅(91-7-28 Version 1.03)
+
+	仱僜乕僗偺僗僞僀儖傪戝暆偵曄峏丅偦傟偵敽偄僶僌偑偄偔偮偐擖傝崬傫偩偐
+	丂傕丅専嶕傪偟偰丄尒偮偐偭偨暥帤楍偑摨偠夋柺偵偁偭偨応崌丄僗僥傿僞僗峴
+	丂偺嵞昞帵偑偝傟側偄偺傪廋惓丅(91-8-7)
+
+	仱僼傽僀儖柤偑側偄偲偒*傪曗偆偺偲丄奼挘巕偑側偄偲偒娐嫬曄悢傪尒偰奼挘
+	丂巕傪曗偆婡擻傪偮偗偨丅(91-8-23 Version 1.04)
+
+	仱傛偗偄側僼傽儞僋僔儑儞昞帵偺ON/OFF傪偟側偄傛偆曄峏丅娐嫬曄悢専嶕偺
+	丂僶僌傪廋惓丅奼挘巕偱僞僽係偺僼傽僀儖傪愝掕偱偒傞傛偆曄峏丅
+	丂(91-9-4 Version 1.05)
+
+	仱僞僽係偺僼傽僀儖偐敾抐偡傞偲偒丄戝暥帤彫暥帤偺嬫暿傪偡傞両傛偆偵側偭
+	丂偰偄偨偺傪廋惓丅(91-9-6)
+
+	仱峴愗傝弌偟偲丄VRAM捈愙昞帵偺儔僀僽儔儕傪夵椙丅峴偺搑拞偵NULL偑偁偭
+	丂偰傕嵟屻傑偱昞帵偡傞傛偆夵椙丅(91-9-22)
+
+	仱搑拞偐傜擖傝崬傫偩僶僌偐傕偟傟側偄偑丄僼傽僀儖傪撉傒崬傫偱偡偖偵
+	丂CTRL+Z偱僼傽僀儖偺嵟屻偵挼傇偲丄俀峴傛偗偄偵挼傫偱偟傑偆偺傪廋惓丅
+	丂(91-9-23)
+
+	仱忋壓僗僋儘乕儖帪丄僆乕僩儕僺乕僩懸偪傪僉儍儞僙儖丅
+	丂(91-9-24 Version 1.06)
+
+	仱傗偭偲俀侽峴儌乕僪偵懳墳丅偨偩偟僿儖僾夋柺偼俀俆峴儌乕僪屌掕丅
+	丂FP偺偣偄偐傕偟傟側偄偑僉乕BIOS偺張棟偑抶偄偺偱丄帺慜偱梡堄偟偨丅
+	丂儕僞乕儞偱廔椆偡傞傛偆偵偟偨丅
+	丂僨僶僀僗偺庬椶乮僽儘僢僋偐僉儍儔僋僞偐乯傪嬫暿偡傞曽朄傪丄傛傝妋幚側
+	丂曽朄偵曄峏丅僼傽僀儖柤偺巜掕偑側偄応崌偺張棟傪曄峏丅
+	丂(92-3-4 Version 1.07)
+
+	仱^Q 偺俀僗僩儘乕僋僉乕偺張棟傪偮偗偨丅偦傟偵敽偄 ^W,^Z 偺僼傽僀儖愭摢
+	丂丒枛旜偺堏摦偑偦傟偧傟 ^QR,^QC 偵側偭偨丅傑偨 ^Q,\^Q 偑側偔側偭偨丅
+	丂嵶偐偄晹暘偺張棟偺崌棟壔傪偟偨丅儅乕僋丒僕儍儞僾婡擻傪偮偗偨丅
+	丂(92-3-5 Version 1.08)
+
+	仱[ARGV] 偲 OFFSET ARGV 傪偛偭偪傖偵偟偰偄偨僶僌傪廋惓丅(92-3-5)
+
+	仱乮偙偺僪僉儏儊儞僩偺乯廋惓擔晅偺擭偑俀擭慜偩偭偨偺傪廋惓丅(92-3-18)
+
+	仱娐嫬曄悢俵俷俽俿偺巇條傪曄峏丅僗僋儘乕儖懍搙偺僇僗僞儅僀僘偑偱偒傞傛
+	丂偆曄峏丅(92-3-18 Version 1.09)
+
+	仱張棟懍搙偺岦忋乮儈儕昩扨埵偩偗偳乯丅帺慜偺僉乕俛俬俷俽偺僶僌傪廋惓丅
+	丂(92-3-24)
+
+	仱^W,^Z,[SPACE]偺張棟傪偮偗偨丅5000峴埲忋偺僼傽僀儖傪撉傫偱丄暥枛偵
+	丂僕儍儞僾偡傞偲朶憱偟偰偟傑偆僶僌偵丄偲傝偁偊偢懳張偟偨丅
+	丂[TAB]偱僞僽暆偺曄峏傪偡傞傛偆偵偟偨丅摨偠埵抲偺嵞尰偵偼傑偭偨丅
+	丂堄尒傪偔偩偝偭偨媨揷惓岾偝傫偵姶幱偟傑偡丅(92-5-25)
+
+	仱挿偄僼傽僀儖傪撉傒崬傫偱傕朶憱傜側偄傛偆偵偟偨丅僼傽僀儖偺嵟戝撉傒崬
+	丂傒壜擻峴悢傪丄堦婥偵20000峴偵偟偨丅
+	丂僕儍儞僾媦傃専嶕偑彮偟懍偔側偭偨乮偐傕偟傟側偄乯丅
+	丂僞僽曄峏帪偵敪惗偡傞僶僌傪僨僶僢僌丅(92-5-27)
+
+	仱懠偵VSYNC妱傝崬傒傪巊偆僾儘僌儔儉偑忢拹偟偰偄偰傕塭嬁偑彮側偄傛
+	丂偆偵偟傛偆偲偟偰幐攕丅専嶕偺僶僌庢傝丅巕僾儘僙僗偱COMMAND.COM傪婲摦丅
+	丂堄尒傪偔偩偝偭偨媨揷惓岾偝傫偵姶幱偟傑偡丅(92-5-29)
+
+	仱彮偟崅懍壔傪偟傛偆偲偟偰幐攕丅僉儍僢僔儏偺張棟傪夵椙偟傛偆偲偟偰拞搑
+	丂敿抂偱僊僽傾僢僾丅(92-6-1)
+
+	仱僞僽傪娷傓暥帤楍傪専嶕偟偨偲偒丄昞帵偑偍偐偟偔側傞僶僌傪廋惓丅
+	丂僉儍僢僔儏偺張棟偺夵椙傪姰惉丅嵟弶偺侾儁乕僕偺撉傒崬傒偑懍偔側偭偨丅
+	丂(92-6-2)
+
+	仱僼傽僀儖偺堦棗昞帵偲慖戰偺婡擻傪偮偗偨丅
+	丂92-5-27 偵崿擖偟偨僶僌偱丄僼傽僀儖偺挿偝偑侽偺帪傓偪傖偔偪傖側張棟傪
+	丂偡傞偺傪廋惓丅(92-6-3)
+
+	仱僄僨傿僞偺婲摦偑偱偒傞傛偆偵側偭偨丅
+	丂堄尒傪偨偔偝傫偔偩偝偭偨媨揷惓岾偝傫偵姶幱偟傑偡丅(92-6-4)
+
+	仱僋儕僢僾婡擻傪偮偗偨丅
+	丂堄尒傪偨偔偝傫偨偔偝傫偔偩偝偭偨媨揷惓岾偝傫偵姶幱偟傑偡丅
+	丂巕僾儘僙僗偱丄僨傿儗僋僩儕傪堏摦偟偨傝丄僇儗儞僩僪儔僀僽傪曄峏偟偨傝
+	丂偟偨傑傑偱MOST偵栠傞偲丄尒偮偐傝傑偣傫:[filename] 偲昞帵偝傟偰廔
+	丂椆偟偰偟傑偭偨偺偱丄巕僾儘僙僗婲摦帪偵僇儗儞僩僨傿儗僋僩儕傪妎偊偰偍
+	丂偄偰丄栠偭偰偒偨偲偒暅尦偡傞傛偆偵偟偨丅
+	丂懳徾僼傽僀儖偑侾屄偩偗偺偲偒偼[F2]傪墴偟偰傕僼傽僀儖慖戰夋柺偵側傜側
+	丂偄傛偆偵偟偨丅(92-6-5 Version 1.10)
+
+	仱峴愗傝弌偟偺儖乕僠儞傪夵椙偟偨丅僋儕僢僾僼傽僀儖偺峴枛偵^M偑傂偲偮
+	丂梋寁偵偮偄偰偟傑偆偺傪廋惓丅僨傿僗僋僋儔僢僔儏偵傛傝僪僉儏儊儞僩偑
+	丂傇偭偲傫偩偺傪暅尦丅(92-6-21 Version 1.11)
+
+	仱僄僨傿僞愝掕暥帤楍偺僾儗僼傿僋僗暥帤傪'%'偐傜'&'偵曄峏丅
+	丂僄僨傿僞婲摦帪偺僶僌傪廋惓丅
+	丂僄僨傿僞傪婲摦偡傞嵺丄僼傽儞僋僔儑儞昞帵偺儚乕僋僄儕傾傪尦偵栠偡偺傪
+	丂朰傟偰偄偨偺傪廋惓丅巜揈偟偰偔偩偝偭偨偡偢偒偝傫偵姶幱偟傑偡丅
+	丂敿妏俀僶僀僩暥帤偑崿偠偭偨峴偺僞僽曄姺偑偆傑偔偄偐側偐偭偨偺傪廋惓丅
+	丂乮寢峔慜偱偡偑乯僸儞僩傪偔偩偝偭偨栘栰懞偝傫偵姶幱偟傑偡丅
+	丂(92-6-28 Version 1.12)
+
+	仱俁侽峴寁夋傪尒偰丄偙傝傖偡偛偄傗偲巚偭偰丄懳墳偺慜弨旛傪偟偨丅
+	丂傾僩儕價儏乕僩偑偆傑偔愝掕偝傟側偄僶僌傪廋惓偟偨丅(92-07-08)
+
+	仱儕僟僀儗僋僩偟偨偲偒僞僽娫妘傪弶婜壔偡傞偺傪朰傟偰偄偨偺傪廋惓偟偨丅
+	丂俁侽峴偵懳墳偟偨丅(92-7-9 Version 1.13)
+
+	仱栘栰懞朏岶偝傫偐傜NIFTY偵偍偗傞僒億乕僩堷偒宲偓丅(92-7-16)
+
+	仱娍帤偺擖椡偑偟傗偡偄傛偆偵丄専嶕暥帤楍偺擖椡偼壓偐傜俀峴栚偱偡傞傛偆
+	丂偵曄峏丅IO.SYS偺儚乕僋傪彂偒姺偊側偄傛偆偵曄峏丅[SPC]僉乕偺
+	丂儁乕僕傾僢僾偟偨捈屻丄僉乕僶僢僼傽傪僋儕傾偡傞傛偆曄峏丅懳徾僼傽僀儖
+	丂偑俇屄傛傝彮側偄応崌偺[F02]偵傛傞慖戰帪丄[DOWN]偱堎忢廔椆偟偰偟傑偆
+	丂偺傪廋惓丅夋柺偺峴悢偺愗傝懼偊傪乮偁傞掱搙乯峴媀傛偔偟偨丅
+	丂MOST=EDIT:ゥゥ;偑巜掕偝傟偰偄側偄偲偒偼丄\[RET]傪柍帇偡傞傛偆偵偟偨丅
+	丂VSYNC妱傝崬傒傪巊偭偰丄摦嶌傪妸傜偐偵偡傞偙偲偵偮偄偵惉岟丅(92-7-25)
+
+	仱僉乕儚乕僪 POS: 傪捛壛丅僋儕僢僾僼傽僀儖柤偺庢摼偵僶僌偑偁偭偨偺傪
+	丂廋惓丅(92-7-26 Version 1.14)
+
+	仱[拞娫敪昞.DOC],[堦棗昞.TXT]側偳丄僼傽僀儖柤偺嵟屻偑椺偊偽乽昞乿偩偲
+	丂捈屻偵'*'偑柍棟栴棟偔偭偮偗傜傟偰偟傑偆偺傪廋惓丅
+	丂巜揈偟偰偔偩偝偭偨旻娵偝傫偵姶幱偟傑偡丅(92-7-28)
+
+	仱儅僀僋儘僜僼僩惢偺儅僂僗僪儔僀僶偵傕懳墳丅敾暿偺曽朄偼偙傟偱傛偐偭偨
+	丂偐偟傜丅傑偁偪傖傫偲敾暿偱偒偰傞偐傜偄偄偱偟傚偆丅(92-9-4)
+
+	仱偟傜偽偭偔傟偰丄僼傽儞僋僔儑儞昞帵傪徚偝側偄傑傑夋柺昞帵偟偰傒偨偑丄
+	丂晄搒崌偑敪妎偟偨偺偱丄偪傖傫偲徚偡傛偆偵偟偨丅
+	丂敪尒幰偺媨揷惓岾偝傫偵姶幱偟傑偡丅
+	丂儕僟僀儗僋僩丄僷僀僾傪巊偭偰偄傞偲偒偼丄僄僨傿僞偺婲摦偲巕僾儘僙僗偺
+	丂婲摦偼偱偒側偄傛偆偵偟偨丅
+	丂僉乕儚乕僪POS:傪攑巭丄FLAG:傪捛壛丅堄尒傪偔偩偝偭偨旻娵偝傫偵姶幱偟
+	丂傑偡丅(92-9-9)
+
+	仱僼傽僀儖傪撉傫偩偲偒夋柺偑昁梫埲忋偵偑偨偮偄偰偄偨偺傪廋惓丅
+	丂VSYNC偑巭傑偭偪傖偆懳嶔偲偟偰丄INT 18H 偵傕僼僢僋傪偐偗偨丅
+	丂(92-9-10 Version 1.15)
+
+	仱VSYNC偑巭傑偭偪傖偆懳嶔偲偟偰丄VSYNC懸偪偺僂僃僀僩儖乕僠儞偺愭摢偱傕
+	丂VSYNC儕僙僢僩傪偐偗傞傛偆偵偟偨丅(92-11-5)
+
+	仱VSYNC妱傝崬傒拞丄挿偄妱傝崬傒嬛巭忬懺偑偁偭偨偺傪廋惓丅(93-1-16)
+
+	仱STOP僉乕妱傝崬傒(06H)偺僼僢僋傪偟側偄傛偆曄峏丅偩偐傜偲偄偭偰丄
+	丂[STOP]傪墴偡偲僴儞僌偡傞偲偄偆傢偗偱偼偁傝傑偣傫丅(93-12-10)
+
+	仱敿妏偺亸傪乢偲昞帵偡傞傛偆曄峏丅
+
+	仱僉乕擖椡懸偪偺娫偵INT 28H傪敪峴偡傞傛偆曄峏丅
+	丂愭摢偑僴僀僼儞偱巒傑傞僼傽僀儖傪墈棗偱偒側偄僶僌乮幚偼巇條乯傪廋惓丅
+	丂FLAG:傪奼挘偟丄侾夋柺儘乕儖傾僢僾乛僟僂儞偑偱偒傞傛偆偵偟偨丅
+	丂僼傽僀儖偺嵟弶偺峴傛傝慜偵僗僋儘乕儖偟偰偟傑偆帠偑偁偭偨偺傪廋惓丅
+	丂尒傜傟傞峴悢傪30000峴偵憹傗偟偨丅(94/1/23 version 1.16)
+
+	仱婲摦帪儅僂僗弶婜壔傪偟側偄傛偆偵偟偨丅儅僂僗偺懚嵼僠僃僢僋偼AX=3偵偰
+	丂峴偆傛偆偵偟偨丅(94/6/29 version 1.17)
+
+	仱夋柺偺僗僾儕僢僩傪丄婲摦帪偲僿儖僾廔椆帪埲奜偼峴傢側偄傛偆偵偟偨丅
+	丂偙傟偼丄AutoMATE忢挀帪偼CRT BIOS偑偐側傝抶偔側傞偨傔丅
+	丂(95/8/4)
+
+	仱95/8/4偺廋惓偱丄僗僥傿僞僗峴偵僑儈暥帤楍偑巆傞偙偲偑偁偭偨偺傪
+	丂廋惓丅(96/12/7 version 1.18)
+
+	仱僔僼僩JIS偺斖埻偼81乣9F,E0乣FC偲偺偙偲側偺偱偦偺傛偆偵廋惓丅
+	丂(98/7/19 version 1.19)
+
+Thank you.
+                                            惂嶌丒挊嶌
+
+                                              HGF00102@niftyserve.or.jp
+
+                                                     偍傁 (Ken/ichiro)
